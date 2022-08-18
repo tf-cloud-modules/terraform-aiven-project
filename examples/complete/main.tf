@@ -1,6 +1,12 @@
 module "project" {
   source  = "../.."
   project = "test2308940"
+  tags = [
+    {
+      key   = "env"
+      value = "test"
+    }
+  ]
 }
 
 module "user" {
