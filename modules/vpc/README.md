@@ -16,15 +16,15 @@ module "vpc" {
 ## Requirements
 
 | Name | Version |
-|------|---------|
+| ---- | ------- |
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13.1 |
 | <a name="requirement_aiven"></a> [aiven](#requirement\_aiven) | >= 4.0.0, < 5.0.0 |
 
 ## Providers
 
 | Name | Version |
-|------|---------|
-| <a name="provider_aiven"></a> [aiven](#provider\_aiven) | 3.5.1 |
+| ---- | ------- |
+| <a name="provider_aiven"></a> [aiven](#provider\_aiven) | 4.66.0 |
 
 ## Modules
 
@@ -33,13 +33,13 @@ No modules.
 ## Resources
 
 | Name | Type |
-|------|------|
+| ---- | ---- |
 | [aiven_project_vpc.this](https://registry.terraform.io/providers/aiven/aiven/latest/docs/resources/project_vpc) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
+| ---- | ----------- | ---- | ------- | :------: |
 | <a name="input_cloud_name"></a> [cloud\_name](#input\_cloud\_name) | Defines where the cloud provider and region where the service is hosted in. | `string` | `"aws-us-east-1"` | no |
 | <a name="input_create"></a> [create](#input\_create) | Controls if resources should be created. | `bool` | `true` | no |
 | <a name="input_network_cidr"></a> [network\_cidr](#input\_network\_cidr) | Network address range used by the VPC. | `string` | `"192.168.0.0/24"` | no |
@@ -49,7 +49,7 @@ No modules.
 ## Outputs
 
 | Name | Description |
-|------|-------------|
+| ---- | ----------- |
 | <a name="output_cloud_name"></a> [cloud\_name](#output\_cloud\_name) | Defines where the cloud provider and region where the service is hosted in. |
 | <a name="output_id"></a> [id](#output\_id) | The ID of this resource. |
 | <a name="output_network_cidr"></a> [network\_cidr](#output\_network\_cidr) | Network address range used by the VPC. |

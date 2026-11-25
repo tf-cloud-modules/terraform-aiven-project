@@ -17,7 +17,7 @@ variable "add_account_owners_admin_access" {
 }
 
 variable "available_credits" {
-  description = "The amount of platform credits available to the project."
+  description = "Deprecated: the aiven/aiven provider makes available_credits read-only since v4.59.0. This variable is ignored and will be removed in a future major release."
   type        = string
   default     = ""
 }
