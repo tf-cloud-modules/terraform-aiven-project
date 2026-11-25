@@ -4,6 +4,13 @@
 
 Terraform module which creates Aiven Project resources.
 
+> **Deprecated:** This module is frozen and will be archived after its final legacy
+> release. For new infrastructure, use the organization-scoped Aiven resources:
+> `aiven_organization_project`, `aiven_organization_permission`, and
+> `aiven_organization_vpc`. Existing installations require a planned state migration;
+> the organization resources must not be introduced alongside their deprecated
+> project-scoped counterparts.
+
 ## Usage
 
 ```hcl
