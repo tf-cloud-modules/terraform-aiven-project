@@ -1,3 +1,5 @@
+**English** | [Русский](README.ru.md)
+
 # Aiven Project Terraform module
 
 Terraform module which creates Aiven Project resources.
