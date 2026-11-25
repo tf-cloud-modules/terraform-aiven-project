@@ -15,15 +15,15 @@ module "project" {
 ## Requirements
 
 | Name | Version |
-|------|---------|
+| ---- | ------- |
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13.1 |
 | <a name="requirement_aiven"></a> [aiven](#requirement\_aiven) | >= 4.0.0, < 5.0.0 |
 
 ## Providers
 
 | Name | Version |
-|------|---------|
-| <a name="provider_aiven"></a> [aiven](#provider\_aiven) | 3.5.1 |
+| ---- | ------- |
+| <a name="provider_aiven"></a> [aiven](#provider\_aiven) | 4.66.0 |
 
 ## Modules
 
@@ -32,16 +32,16 @@ No modules.
 ## Resources
 
 | Name | Type |
-|------|------|
+| ---- | ---- |
 | [aiven_project.this](https://registry.terraform.io/providers/aiven/aiven/latest/docs/resources/project) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
+| ---- | ----------- | ---- | ------- | :------: |
 | <a name="input_account_id"></a> [account\_id](#input\_account\_id) | An optional property to link a project to already an existing account by using account ID. | `string` | `""` | no |
 | <a name="input_add_account_owners_admin_access"></a> [add\_account\_owners\_admin\_access](#input\_add\_account\_owners\_admin\_access) | If account\_id is set, grant account owner team admin access to the new project. | `bool` | `true` | no |
-| <a name="input_available_credits"></a> [available\_credits](#input\_available\_credits) | The amount of platform credits available to the project. | `string` | `""` | no |
+| <a name="input_available_credits"></a> [available\_credits](#input\_available\_credits) | Deprecated: the aiven/aiven provider makes available\_credits read-only since v4.59.0. This variable is ignored and will be removed in a future major release. | `string` | `""` | no |
 | <a name="input_billing_group"></a> [billing\_group](#input\_billing\_group) | The id of the billing group that is linked to this project. | `string` | `""` | no |
 | <a name="input_copy_from_project"></a> [copy\_from\_project](#input\_copy\_from\_project) | The name of another project used to copy billing information and some other project attributes like technical contacts from. | `string` | `""` | no |
 | <a name="input_create"></a> [create](#input\_create) | Controls if resources should be created. | `bool` | `true` | no |
@@ -54,7 +54,7 @@ No modules.
 ## Outputs
 
 | Name | Description |
-|------|-------------|
+| ---- | ----------- |
 | <a name="output_ca_cert"></a> [ca\_cert](#output\_ca\_cert) | The CA certificate of the project. |
 | <a name="output_id"></a> [id](#output\_id) | The ID of this resource. |
 | <a name="output_project"></a> [project](#output\_project) | Defines the name of the project. |
