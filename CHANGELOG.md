@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.2] - 2026-11-25
+
 ### Deprecated
 - Deprecate this module in favor of organization-scoped Aiven resources. The module is frozen and will be archived after the next release; migrate existing project, permission, and VPC state before adopting their replacements.
 
@@ -60,7 +62,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release.
 
-[Unreleased]: https://github.com/tf-cloud-modules/terraform-aiven-project/compare/2.0.1...HEAD
+[Unreleased]: https://github.com/tf-cloud-modules/terraform-aiven-project/compare/2.0.2...HEAD
+[2.0.2]: https://github.com/tf-cloud-modules/terraform-aiven-project/compare/2.0.1...2.0.2
 [2.0.1]: https://github.com/tf-cloud-modules/terraform-aiven-project/compare/2.0.0...2.0.1
 [2.0.0]: https://github.com/tf-cloud-modules/terraform-aiven-project/compare/1.0.2...2.0.0
 [1.0.2]: https://github.com/tf-cloud-modules/terraform-aiven-project/compare/1.0.1...1.0.2
