@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Deprecated
+- Deprecate this module in favor of organization-scoped Aiven resources. The module is frozen and will be archived after the next release; migrate existing project, permission, and VPC state before adopting their replacements.
+
+### Changed
+- Require aiven/aiven provider version 4.66.0 or later, while remaining compatible with provider v4.
+- Use `null` rather than empty strings for optional string inputs so unset values are omitted from provider requests.
+- Add an explicit provider source and version constraint to the complete example.
+
+### Fixed
+- Standardize `.gitignore` for Terraform local state, configuration, and generated files.
+
 ## [2.0.1] - 2026-11-25
 
 ### Fixed
